@@ -18,5 +18,13 @@ then
   exit 1
 fi
 
+if [ -z $KAFKA_BROKER_PORT ]
+then
+  echo "Missing setenv property KAFKA_BROKER_PORT"
+  exit 1
+fi
+
+
+
 
 mkdir -p $CONFIG_DIR

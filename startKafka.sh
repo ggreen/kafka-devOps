@@ -9,4 +9,4 @@ if [ ! -f $CONFIG_DIR/server.properties ]; then
   exit -1
 fi
 
-nohup $KAFKA_HOME/bin/kafka-server-start.sh $CONFIG_DIR/server.properties > /dev/null 2>&1 \&
+nohup $KAFKA_HOME/bin/kafka-server-start.sh $CONFIG_DIR/server.properties > /dev/null 2>&1 &
