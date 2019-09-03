@@ -1,0 +1,22 @@
+source ./setenv.sh
+
+if [ -z $KAFKA_HOST ]
+then
+  echo "Missing setenv property KAFKA_HOST"
+  exit 1
+fi
+
+if [ -z $KAFKA_HOME ]
+then
+  echo "Missing setenv property KAFKA_HOME"
+  exit 1
+fi
+
+if [ -z $CONFIG_DIR ]
+then
+  echo "Missing setenv property CONFIG_DIR"
+  exit 1
+fi
+
+
+mkdir -p $CONFIG_DIR
