@@ -28,8 +28,17 @@ Script | Note
 ------ | -----------  
 consumerTopic.sh | Listen for topic events to prints to stdout
 countTopic.sh   | Counts the number of events in a topic
-createTopic.sh  | create a Kafka
+createTopic.sh  | create a Kafka topic
 deleteTopic.sh  | Deletes a  topic
 publishTopic.sh | push a message to a topic
 listTopics.sh   | list the available topics
-showMessages.sh  | Show messages
+showMessages.sh  | Show messages on a topic
+
+
+
+# Runtime
+
+# | Step | Script  
+------ | -----------  
+1 | Start Zoopkeeper | ./startZookeeper.sh  
+1 | Start Kafka broker| ./startKafka.sh  
