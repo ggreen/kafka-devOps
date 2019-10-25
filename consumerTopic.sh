@@ -5,4 +5,4 @@ if [ "$#" -ne 1 ]; then
     exit;
 fi
 
-$KAFKA_HOME/bin/kafka-console-consumer.sh --bootstrap-server $KAFKA_HOST:9092 --topic $1
+$KAFKA_HOME/bin/kafka-console-consumer.sh --bootstrap-server $KAFKA_HOST:$KAFKA_BROKER_PORT --topic $1

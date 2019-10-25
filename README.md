@@ -1,10 +1,15 @@
 # kafka-devOps
 
-kafka-devOps BETA UNIX scripts for manage a simple single server Apache Kafka installation.
-These scripts have be tested in a local MAC environment.
+kafka-devOps BETA UNIX scripts for management of a simple single server Apache Kafka installation.
+These scripts have been tested in a local MAC environment.
 
 
-See the following for [downloading the Apache Kafka](https://kafka.apache.org/quickstart#quickstart_download)
+Also see the following for [downloading the Apache Kafka](https://kafka.apache.org/quickstart#quickstart_download)
+
+Additional steps to configure a separate local properties files
+- mkdir config
+- cp $KAFKA_HOME/config/server.properties config/
+- cp $KAFKA_HOME/config/config/zookeeper.properties config/
 
 ## Startup Scripts
 The following are the management scripts to configure/run a Kafka installation
@@ -30,6 +35,8 @@ KAFKA_BROKER_PORT | The Kafka Port  | ex: 9092
 ZOOKEEPER_PORT  | The Zoo Keeper listening PORT | 2181
 
 ### Startup
+
+execute the following to start a local Kafka instance
 
 '# | Step | Script  
 ------ | -----------  |----------

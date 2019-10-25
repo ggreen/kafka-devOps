@@ -24,6 +24,11 @@ then
   exit 1
 fi
 
+if [ -z $ZOOKEEPER_PORT ]
+then
+  echo "Missing setenv property ZOOKEEPER_PORT"
+  exit 1
+fi
 
 
 
