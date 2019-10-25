@@ -8,7 +8,7 @@ The following are the management to configure/run a Kafka installation
 
 Resource | Notes
 --------   | --------------------
-setenv.sh  | Set local environment variables  KAFKA_HOME, CONFIG_DIR=./config, KAFKA_BROKER_PORT=9092
+setenv.sh  | Set local environment variables (see setenv section below)
 common.library  | Internal utility script
 startZookeeper.sh | Script for starting Zookeeper
 startKafka.sh |  Script for starking a Kakfa broker   
@@ -17,7 +17,7 @@ The following is an overview of the variables in the setenv
 
 Variable | Note   | Example
 -------- | -------  | ------------
-KAFKA_HOME | Apache Kafka installation directory | ex: /devtools/integration/messaging/apacheKafka/kafka_2.11-2.3.0
+KAFKA_HOME | Apache Kafka installation directory | ex: /apacheKafka/kafka_2.11-2.3.0
 KAFKA_HOST | Apache Host Name| localhost
 CONFIG_DIR | Location of  kafka server.properties	zookeeper.properties files | ex ./config
 KAFKA_BROKER_PORT | The Kafka Port  | ex: 9092
