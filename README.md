@@ -9,9 +9,9 @@ The following are the management to configure/run a Kafka installation
 Resource | Notes
 --------   | --------------------
 setenv.sh  | Set local environment variables  KAFKA_HOME, CONFIG_DIR=./config, KAFKA_BROKER_PORT=9092
-common.library
-startZookeeper.sh | Script for starting
-startKafka.sh    
+common.library  | Internal utility script
+startZookeeper.sh | Script for starting Zookeeper
+startKafka.sh |  Script for starking a Kakfa broker   
 
 The following is an overview of the variables in the setenv
 
