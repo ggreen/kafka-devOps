@@ -1,2 +1,35 @@
 # kafka-devOps
-kafka-devOps UNIX scripts
+
+kafka-devOps BETA UNIX scripts for manage a simple single server Apache Kafka installation./
+These scripts have be tested in a local MAC environment.
+
+
+The following are the management to configure/run a Kafka installation
+
+Resource | Notes
+--------   | --------------------
+setenv.sh  | Set local environment variables  KAFKA_HOME, CONFIG_DIR=./config, KAFKA_BROKER_PORT=9092
+common.library
+startZookeeper.sh | Script for starting
+startKafka.sh    
+
+The following is an overview of the variables in the setenv
+
+Variable | Note   | Example
+________ | _____  | ________
+KAFKA_HOME | Apache Kafka installation directory | ex: /devtools/integration/messaging/apacheKafka/kafka_2.11-2.3.0
+KAFKA_HOST | Apache Host Name| localhost
+CONFIG_DIR | Location of  kafka server.properties	zookeeper.properties files| ex ./config
+KAFKA_BROKER_PORT | The Kafka Port  |ex: 9092
+ZOOKEEPER_PORT The Zoo Keeper listening PORT | 2181
+
+
+Script | Note   
+________ | _____  
+consumerTopic.sh | Listen for topic events to prints to stdout
+countTopic.sh   | Counts the number of events in a topic
+createTopic.sh  | create a Kafka
+deleteTopic.sh  | Deletes a  topic
+publishTopic.sh | push a message to a topic
+listTopics.sh   | list the available topics
+showMessages.sh  | Show messages
