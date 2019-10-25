@@ -16,7 +16,7 @@ startKafka.sh |  Script for starking a Kakfa broker
 The following is an overview of the variables in the setenv
 
 Variable | Note   | Example
-________ | _____  | ________
+-------- | -------  | ------------
 KAFKA_HOME | Apache Kafka installation directory | ex: /devtools/integration/messaging/apacheKafka/kafka_2.11-2.3.0
 KAFKA_HOST | Apache Host Name| localhost
 CONFIG_DIR | Location of  kafka server.properties	zookeeper.properties files | ex ./config
@@ -25,7 +25,7 @@ ZOOKEEPER_PORT  | The Zoo Keeper listening PORT | 2181
 
 
 Script | Note   
-________ | _____  
+------ | -----------  
 consumerTopic.sh | Listen for topic events to prints to stdout
 countTopic.sh   | Counts the number of events in a topic
 createTopic.sh  | create a Kafka
