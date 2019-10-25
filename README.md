@@ -1,16 +1,14 @@
 # kafka-devOps
 
-The kafka-devOps project's goal is to provide user-friendly UNIX scripts for management of a simple  [Apache Kafka](https://kafka.apache.org) installation.
-
-*This is currently a BETA version of the scripts that have been tested in a local single server MAC environment.*
-
-Also see the following for [downloading Apache Kafka](https://kafka.apache.org/quickstart#quickstart_download)
+The kafka-devOps project's goal is to provide user-friendly UNIX scripts for management of a simple  [Apache Kafka](https://kafka.apache.org) installation. Also see the following for [downloading Apache Kafka](https://kafka.apache.org/quickstart#quickstart_download)
 
 Additional setup steps to configure a separate local Kafka properties files
 - mkdir config
 - cp $KAFKA_HOME/config/server.properties config/
 - cp $KAFKA_HOME/config/config/zookeeper.properties config/
 
+*This is currently a BETA version of the scripts that have been tested in a local single server MAC environment.*
+ 
 ## Startup Scripts
 The following are the management scripts to configure/run a Kafka installation
 
