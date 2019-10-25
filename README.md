@@ -19,9 +19,9 @@ Variable | Note   | Example
 ________ | _____  | ________
 KAFKA_HOME | Apache Kafka installation directory | ex: /devtools/integration/messaging/apacheKafka/kafka_2.11-2.3.0
 KAFKA_HOST | Apache Host Name| localhost
-CONFIG_DIR | Location of  kafka server.properties	zookeeper.properties files| ex ./config
-KAFKA_BROKER_PORT | The Kafka Port  |ex: 9092
-ZOOKEEPER_PORT The Zoo Keeper listening PORT | 2181
+CONFIG_DIR | Location of  kafka server.properties	zookeeper.properties files | ex ./config
+KAFKA_BROKER_PORT | The Kafka Port  | ex: 9092
+ZOOKEEPER_PORT  | The Zoo Keeper listening PORT | 2181
 
 
 Script | Note   
