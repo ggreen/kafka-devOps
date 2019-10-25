@@ -38,7 +38,7 @@ showMessages.sh  | Show messages on a topic
 
 # Runtime
 
-'#' | Step | Script  
+'# | Step | Script  
 ------ | -----------  |----------
 1 | Start Zoopkeeper | ./startZookeeper.sh  
 2 | Start Kafka broker| ./startKafka.sh  
