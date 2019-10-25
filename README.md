@@ -37,6 +37,8 @@ ZOOKEEPER_PORT  | The Zoo Keeper listening PORT | 2181
 
 ## Topic Access Scripts
 
+The following can be used to access topics and its containing data.
+
 Script | Note   
 ------ | -----------  
 consumerTopic.sh | Listen for topic events to print to stdout
