@@ -4,6 +4,8 @@ kafka-devOps BETA UNIX scripts for manage a simple single server Apache Kafka in
 These scripts have be tested in a local MAC environment.
 
 
+See the following for [downloading the Apache Kafka](https://kafka.apache.org/quickstart#quickstart_download)
+
 ## Startup Scripts
 The following are the management scripts to configure/run a Kafka installation
 
