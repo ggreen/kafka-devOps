@@ -26,7 +26,7 @@ ZOOKEEPER_PORT  | The Zoo Keeper listening PORT | 2181
 
 Script | Note   
 ------ | -----------  
-consumerTopic.sh | Listen for topic events to prints to stdout
+consumerTopic.sh | Listen for topic events to print to stdout
 countTopic.sh   | Counts the number of events in a topic
 createTopic.sh  | create a Kafka topic
 deleteTopic.sh  | Deletes a  topic
@@ -38,7 +38,7 @@ showMessages.sh  | Show messages on a topic
 
 # Runtime
 
-# | Step | Script  
+'#' | Step | Script  
 ------ | -----------  
 1 | Start Zoopkeeper | ./startZookeeper.sh  
 1 | Start Kafka broker| ./startKafka.sh  
