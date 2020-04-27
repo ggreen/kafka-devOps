@@ -5,7 +5,7 @@ The kafka-devOps project's goal is to provide user-friendly UNIX scripts for man
 Additional setup steps to configure a separate local Kafka properties files
 - mkdir config
 - cp $KAFKA_HOME/config/server.properties config/
-- cp $KAFKA_HOME/config/config/zookeeper.properties config/
+- cp $KAFKA_HOME/config/zookeeper.properties config/
 
 *This is currently a BETA version of the scripts that have been tested in a local single server MAC environment.*
 
