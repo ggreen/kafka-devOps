@@ -6,4 +6,5 @@ if [ "$#" -ne 1 ]; then
     exit;
 fi
 
-$KAFKA_HOME/bin/kafka-topics.sh --zookeeper $KAFKA_HOST:$ZOOKEEPER_PORT --force --delete --topic $1
+#$KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server=localhost:$KAFKA_BROKER_PORT --force --delete --topic $1
+$KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server=localhost:$KAFKA_BROKER_PORT  --delete --topic $1
