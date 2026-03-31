@@ -3,9 +3,15 @@
 The kafka-devOps project's goal is to provide user-friendly UNIX scripts for management of a simple  [Apache Kafka](https://kafka.apache.org) installation. Also see the following for [downloading Apache Kafka](https://kafka.apache.org/quickstart#quickstart_download)
 
 Additional setup steps to configure a separate local Kafka properties files
-- mkdir config
-- cp $KAFKA_HOME/config/server.properties config/
-- cp $KAFKA_HOME/config/zookeeper.properties config/
+
+
+Create setenv.sh
+
+```shell
+KAFKA_HOST=127.0.0.1
+CONFIG_DIR=$KAFKA_HOME/config
+KAFKA_BROKER_PORT=9092
+```
 
 *This is currently a BETA version of the scripts that have been tested in a local single server MAC environment.*
 

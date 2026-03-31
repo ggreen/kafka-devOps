@@ -5,4 +5,4 @@ if [ "$#" -ne 3 ]; then
     exit;
 fi
 
-$KAFKA_HOME/bin/kafka-topics.sh --zookeeper $KAFKA_HOST:$ZOOKEEPER_PORT --create --topic $1 --partitions $2 --replication-factor=$3
+$KAFKA_HOME/bin/kafka-topics.sh --bootstrap-server=localhost:$KAFKA_BROKER_PORT --create --topic $1 --partitions $2 --replication-factor=$3
